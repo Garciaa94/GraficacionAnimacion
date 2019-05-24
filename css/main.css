@@ -1,0 +1,71 @@
+/*Name Peter Garcia*/
+/*adrian1994215@gmail.com*/
+
+
+h1{color:red;}/*colores */
+h2{color:blue;}/*colores */
+body{ /*colores */
+	background-image: url(https://images7.alphacoders.com/426/426080.jpg); 
+ 	background-size: cover;                  
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    width:100%;
+    max-width:100%;
+}
+   td{font-size: 40px;
+		color: rgb(0,0,0);
+		font-family: "Libre Baskerville";
+		font-style: italic;;
+		text-align: center;} /* color de la tabla del log*/
+
+#intro-container{}
+#intro-container menu div{/* Alinea el logo con el menu*/
+	display: inline-block;
+	vertical-align: top;
+	}   
+#intro-container menu #logo{ /* ahcho del logo*/
+	width: 10%;
+}
+#intro-container menu #menu-lista{
+	width: 89%;
+	text-align: right; /* Alinear texto del menu a la derecha */
+}
+#intro-container menu #menu-lista ul{ /* alineamiento de la lista */
+	margin: 0;
+}
+#intro-container menu #menu-lista ul li{ /* alineamiento del menu*/
+	display: inline-block;
+	padding: 0;
+	margin: 0 10px; /*margen de cada lado */
+	list-style: none;
+}
+#intro-container menu #menu-lista ul li a{ /*color del texto del menu*/
+	color: #000000;
+	text-decoration: none;
+}
+#intro-container menu #menu-lista ul li a:hover{
+	color: white;    /*color de sombra del menu*/
+}
+
+/*   inicio posicion del pie de pafina*/
+footer {
+  background-color: #808080;
+  
+  width: 100%;
+  height: 50px;
+  color: black;
+  bottom: 0;
+  position: fixed;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  margin-bottom: 40px;
+}
+html {
+  min-height: 100%;
+  position: relative;
+}
+/*   fin posicion del pie de pafina*/
